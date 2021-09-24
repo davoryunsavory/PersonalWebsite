@@ -1,0 +1,63 @@
+.header {
+    background: #030b0f;
+    width: 100%;
+    height: 10%;
+    text-align: center;
+    position: absolute;
+    color: white;
+}
+.leftTree {
+    background:#030b0f;
+    float: left;
+    margin-top: 5%;
+    width: 15%;
+    height: 100%;
+    position:absolute;
+    color: white;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+}
+.mainbackground {
+    background: #01161e;
+}
+ /* Remove default bullets */
+ ul, #myUL {
+    list-style-type: none;
+  }
+  
+  /* Remove margins and padding from the parent ul */
+  #myUL {
+    margin-left: 10px;
+    padding: 0;
+  }
+  
+  /* Style the caret/arrow */
+  .caret {
+    cursor: pointer;
+    user-select: none; /* Prevent text selection */
+  }
+  
+  /* Create the caret/arrow with a unicode, and style it */
+  .caret::before {
+    content: "\25B6";
+    color: white;
+    display: inline-block;
+    margin-right: 6px;
+  }
+  
+  /* Rotate the caret/arrow icon when clicked on (using JavaScript) */
+  .caret-down::before {
+    transform: rotate(90deg);
+  }
+  
+  /* Hide the nested list */
+  .nested {
+    display: none;
+  }
+  
+  /* Show the nested list when the user clicks on the caret/arrow (with JavaScript) */
+  .active {
+    display: block;
+  } 
